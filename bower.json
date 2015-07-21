@@ -1,0 +1,19 @@
+{
+  "name": "Fe4nn0r/personal-website",
+  "version": "1.0.0",
+  "homepage": "http://florent-clerc.fr",
+  "authors": [
+    "Florent <florent.clerc@gmail.com>"
+  ],
+  "description": "Small and simple personal website",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

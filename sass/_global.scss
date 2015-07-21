@@ -1,0 +1,44 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+  height: 100%;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+body{
+  overflow-y: scroll;
+  min-width: 340px;
+}
+
+a:focus, a:active{
+  text-decoration: none;
+  outline:none;
+}
+
+a,
+.btn,
+.btn:focus,
+.btn.focus,
+.btn:active:focus,
+.btn:active.focus,
+.btn.active:focus,
+.btn.active.focus {
+   outline: none;
+}
+a:hover,a:visited:hover{
+  text-decoration: none;
+}
+
+a .fa, button .fa {
+
+  &:hover, &:active, &:focus {
+    cursor: pointer;
+  }
+}
+
+li {
+  list-style-type: none;
+}

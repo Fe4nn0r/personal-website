@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Florent Clerc - Développeur Web</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Florent Clerc, 24 ans, développeur web, lyonnais" />
+    <meta name="keywords" content="cv développeur web, développeur web" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!--[if IE]>
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300,600,400' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header class="header">
+
+      <div class="header__photo-cont">
+        <img class="header__photo" src="./img/me.jpeg" width="90" height="90" title="Yep, c'est moi"/>
+      </div>
+
+      <h1 class="header__title text-center">
+        <span class="header__title__name">Florent Clerc, 24 ans</span> 
+        <span class="header__title__job text-lowercase">développeur web</span>
+        <span class="header__title__dl text-lowercase">
+          <a href="./files/cv.pdf" target="_blank">
+            <i class="fa fa-download"></i>
+            CV au format PDF
+          </a>
+        </span>
+      </h1>
+    </header>
+    <nav class="nav">
+      <ul class="menu list-inline">
+        <li class="menu__item">
+          <a class="menu__item__link" href="#skills">compétences</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item__link" href="#experience">expériences professionnelles</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item__link" href="#diplomes">diplômes</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item__link" href="#contact">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+
+            <div class="row section-cont">
+              
+              <h2 class="title title--main">Compétences</h2>
+              
+              <section id="skills" class="skills col-xs-12 col-sm-10 col-sm-offset-1">
+
+                
+                <div class="skills__main">
+                  <h3 class="skills__title"><i class="fa fa-database"></i> Back-end</h3>
+
+                  <ul class="skills__list">
+                    <li class="skills__list__item">
+                      PHP<span class="frameworks"> — Symfony2, Silex</span>
+                    </li>
+
+                    <li class="skills__list__item">
+                      MySQL
+                    </li>
+
+                    <li class="skills__list__item">
+                      Connaissances en Golang
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="skills__main">
+                  <h3 class="skills__title"><i class="fa fa-mobile"></i> Front-end</h3>
+
+                  <ul class="skills__list">
+                    <li class="skills__list__item">
+                      Javascript (ES2015) <span class="frameworks"> — jQuery, AngularJS</span>
+                    </li>
+                    <li class="skills__list__item">
+                      HTML5, CSS<span class="frameworks"> — SCSS</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="skills__main">
+                  <h3 class="skills__title"><i class="fa fa-gear"></i> Outils</h3>
+
+                  <ul class="skills__list">
+                    <li class="skills__list__item">
+                      Git, SVN
+                    </li>
+                    <li class="skills__list__item">
+                      Bower, Grunt, Gulp
+                    </li>
+                  </ul>
+                </div>
+
+
+              </section>
+
+            </div>
+
+            <div class="row section-cont">
+
+              <section id="experience" class="experiences col-xs-12 col-sm-10 col-sm-offset-1">
+
+                  <h2 class="title title--main experiences__title">Expériences Professionnelles</h2>
+
+                  <div class="experiences__item xp">
+
+                    <div class="row">
+                      
+                      <div class="bloc__left">
+                        <span class="xp__date">Juin 2014 — Aujourd'hui</span>
+                      </div>
+                      
+                      <div class="bloc__right">
+                        <div class="xp__title">Développeur Front-end</div>
+                        <div class="xp__company">Batch.com</div>
+                        <div class="xp__company-site"><a href="https://batch.com">https://batch.com</a></div>
+                      </div>
+
+                    </div>
+
+                    <div class="mt-4x"></div>
+
+                    <div class="xp__desc">
+                      Batch.com permet aux développeurs de suivre l'audience de leur application mobile, de réaliser des campagnes de notifications ("push notifications"), mais aussi d'inclure de la monétisation (via publicités) simplement en intégrant un SDK. Le reste est ensuite pilotable via un dashboard web.
+                    </div>
+
+                    <div class="xp__desc">
+                      Batch Insights surveille les notifications mobiles d'une multitude d'applications mobiles.
+                      Le dashboard web permet ensuite de visualiser, rechercher et monitorer ces notifications.
+                    </div>
+
+                    <div class="xp__detail">
+                      
+                      <div>
+                        -  Développement des dashboards pour Batch SDK <small>(<a href="https://batch.com">https://batch.com</a>) </small>
+                        et Batch Insights <small>(<a href="https://batch.com/insights">https://batch.com/insights</a>) </small>
+                      </div>
+
+                      <div>
+                        -  Technologies et frameworks:
+                        <ul>
+                          <li>PHP — Symfony2</li>
+                          <li>MySQL, Redis</li>
+                          <li>AngularJS, d3.js, ES2015 (via BabelJS)</li>
+                          <li>SCSS</li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        -  Intégration Stripe
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="experiences__item xp">
+
+                    <div class="row">
+                      
+                      <div class="bloc__left">
+                        <span class="xp__date">Février 2012 — Juin 2014</span>
+                      </div>
+                      
+                      <div class="bloc__right">
+                        <div class="xp__title">Développeur web</div>
+                        <div class="xp__company">Nixdo</div>
+                        <div class="xp__company-site"><a href="https://nixdo.com">https://nixdo.com</a></div>
+                      </div>
+
+                    </div>
+
+                    <div class="mt-4x"></div>
+
+                    <div class="xp__desc">
+                      Nixdo est une application web permettant aux commercants et grandes chaines (hôtels, restaurateurs, etc...) de synchroniser et uniformiser leurs informations sur une multitude d'annuaires et de réseaux sociaux (Foursquare, Yelp, Tripadvisor, mais aussi Facebook, Twitter, etc...)
+                    </div>
+
+                    <div class="xp__detail">
+                      
+                      <div>
+                        -  Développement complet du dashboard web de <a href="https://nixdo.com">https://nixdo.com</a>
+                      </div>
+
+                      <div>
+                        -  Technologies et frameworks: 
+                        <ul>
+                          <li>PHP — Symfony 1.4, Symfony2, Silex</li>
+                          <li>MySQL</li>
+                          <li>jQuery, AngularJS</li>
+                          <li>SCSS</li>
+                        </ul>
+                      </div>
+
+                      <div>-  Administration système</div>
+
+                      <div>-  Intégration d'un système de paiement via <a href="http://www1.paybox.com/?lang=en">Paybox</a></div>
+
+                    </div>
+                  </div>
+
+                    <div class="experiences__item xp">
+
+                      <div class="row">
+                        
+                        <div class="bloc__left">
+                          <span class="xp__date">Juillet 2011 — Février 2012</span>
+                        </div>
+                        
+                        <div class="bloc__right">
+                          <div class="xp__title">Développeur web</div>
+                          <div class="xp__company">ICE Development</div>
+                        </div>
+
+                      </div>
+
+                      <div class="xp__detail">
+                        
+                        <div>
+                          -  Développement de plusieurs sites (e-commerces et sites vitrines) pour le compte de nos clients
+                        </div>
+
+                        <div>
+                          -  Technologies et frameworks:
+                          <ul>
+                            <li>PHP — Symfony 1.4</li>
+                            <li>MySQL</li>
+                            <li>jQuery</li>
+                          </ul>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+              </section>
+            </div>
+      
+            <div class="row section-cont">
+              <section id="diplomes" class="degrees col-xs-12 col-sm-10 col-sm-offset-1">
+
+                  <h2 class="title title--main degrees__title">Diplômes</h2>
+
+                  <div class="degrees_item degree">
+
+                    <div class="row">
+                      
+                      <div class="bloc__left">
+                        <span class="degree__date">2011</span>
+                      </div>
+                      
+                      <div class="bloc__right">
+                        <div class="degree__title">Licence Professionnelle Informatiques et Logiciels</div>
+                        <div class="degree__place">Université de Bourgogne</div>
+
+                        <div class="degree__detail">
+                          
+                          <div>
+                            Stage de fin d'année à OpenDev <small>(<a href="http://www.opendev.fr/">http://www.opendev.fr/</a>)</small>:
+                            <br />
+                            Réalisation d'une application web de gestion de projets, destinée à un usage interne
+                            <br />
+                            <span class="frameworks">Symfony 1.4, jQuery</span>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="degrees_item degree">
+
+                    <div class="row">
+                      
+                      <div class="bloc__left">
+                        <span class="degree__date">2010</span>
+                      </div>
+                      
+                      <div class="bloc__right">
+                        <div class="degree__title">DUT Informatique</div>
+                        <div class="degree__place">IUT de Dijon, Université de Bourgogne</div>
+
+                        <div class="degree__detail">
+                          
+                          <div>
+                            Stage de fin d'année à l'ESC Dijon:
+                            <br />
+                            Réalisation d'une application web interne à destination des élèves
+                            <br />
+                            <span class="frameworks">WebDev</span>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  </div>
+
+              </section>
+              
+              <div class="row section-cont">
+
+                <section id="contact" class="contact col-xs-12 col-sm-10 col-sm-offset-1">
+                  
+                  <h2 class="title title--main contact__title">Contactez-moi</h2>
+
+                  <div class="row">
+
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div class="contact__list">
+
+      
+                          <a class="contact__list__item"  href="tel:+33646275493">
+                            <i class="contact__list__icon fa fa-mobile-phone"></i>
+                            <span class="contact__list__detail">
+                              06 46 27 54 93
+                            </span>
+
+                          </a>
+                          
+                          <a href="mailto:florent.clerc@gmail.com" class="contact__list__item">
+                            <i class="contact__list__icon fa fa-envelope-o"></i>
+                            
+                            <span class="contact__list__detail">
+                              florent.clerc@gmail.com
+                            </span>
+
+                          </a>
+                          
+                        </div>
+
+                      </div>
+                  </div>
+
+                  <h2 class="title title--main contact__subtitle">Et je suis aussi sur</h2>
+
+                  <div class="row">
+
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div class="contact__list">
+                                                    
+                          <a href="http://fr.linkedin.com/in/florentclerc" target="_blank" class="contact__list__item">
+                            <i class="contact__list__icon fa fa-linkedin"></i>
+                            
+                            <span class="contact__list__detail">
+                              Linkedin
+                            </span>
+
+                          </a>
+                                                    
+                          <a href="https://github.com/Fe4nn0r" target="_blank" class="contact__list__item">
+                            <i class="contact__list__icon fa fa-github"></i>
+                            
+                            <span class="contact__list__detail">
+                              Github
+                            </span>
+
+                          </a>
+
+                        </div>
+
+                      </div>
+                  </div>
+
+
+                </section>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-65326800-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  </body>
+</html>
