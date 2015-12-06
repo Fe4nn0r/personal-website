@@ -1,15 +1,14 @@
 /*jslint node: true */
 'use strict';
 
-var
-    gulp        = require('gulp'),
-    $           = require('gulp-load-plugins')();
+var gulp = require('gulp');
+var $    = require('gulp-load-plugins')();
 
 var cfg = {
   sass: {
     src:'./sass/*.scss',
-    dest:'./public/css'
-  }
+    dest:'./public/css',
+  },
 };
 
 $.livereload({ start: true });
